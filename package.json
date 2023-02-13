@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanneelsSophie/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanneelsSophie/cv/issues"
+  },
+  "homepage": "https://github.com/DanneelsSophie/cv#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
