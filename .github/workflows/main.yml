@@ -31,7 +31,7 @@ jobs:
       - name: create env file
         run: |
          touch .env.development 
-         echo FIRST_NAME=${{ vars.FIRST_NAME }} >> .env.development
+         echo \nFIRST_NAME=${{ vars.FIRST_NAME }} >> .env.development
         
       - name: npm run start:dev
         run: npm run start:dev
