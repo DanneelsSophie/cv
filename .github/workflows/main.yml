@@ -31,10 +31,10 @@ jobs:
       - name: create env file
         run: |
          touch .env.development 
-         echo BASE_URL=${{ vars.FIRST_NAME }} >> .env
+         echo FIRST_NAME=${{ vars.FIRST_NAME }} >> .env
         
-      - name: npm run start
-        run: npm run start
+      - name: npm run start:dev
+        run: npm run start:dev
          
          
          
